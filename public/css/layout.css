@@ -81,6 +81,12 @@ header .social li a:hover {
   color: #6460d2;
 }
 
+.blog-button {
+  padding:8px !important;
+  padding-left:15px !important;
+  padding-right:15px !important;
+}
+
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
@@ -215,8 +221,7 @@ ul#nav li.current a {
   width: 41.66667%;
 }
 #about .download {
-  width: 58.33333%;
-  padding-top: 6px;
+  padding: 6px;
 }
 #about .main-col {
   padding-right: 5%;
@@ -232,6 +237,10 @@ ul#nav li.current a {
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
+}
+
+.button2 {
+  margin-left: 6px;
 }
 
 /* ------------------------------------------------------------------ */
