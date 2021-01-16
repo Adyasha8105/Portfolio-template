@@ -3,27 +3,27 @@
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/Adyasha8105",
         "className":"fa fa-facebook"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/adyasha-mohanty-7a6254191/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbakerx",
+        "url":"https://www.instagram.com/adyaa_08/",
         "className":"fa fa-instagram"
       },
       {
         "name":"twitter",
-        "url":"https://stackoverflow.com/users/8553186/tim-baker?tab=profile",
+        "url":"https://twitter.com/Adyasha8105",
         "className":"fa fa-twitter"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/Adyasha8105",
         "className":"fa fa-github"
       }
     ]
