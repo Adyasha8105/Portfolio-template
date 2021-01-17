@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   getResumeData(){
-      const load = document.getElementById('siteLoading')
+      // const load = document.getElementById('siteLoading')
     $.ajax({
       url:'/resumeData.json',
       dataType:'json',
@@ -31,7 +31,7 @@ class App extends Component {
       success: function(data){
         this.setState({resumeData: data});
         setTimeout(()=>{
-          load.outerHTML='';
+          // load.outerHTML='';
         },500)
       }.bind(this),
       error: function(xhr, status, err){
