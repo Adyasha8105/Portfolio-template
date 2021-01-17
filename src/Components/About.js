@@ -15,8 +15,8 @@ class About extends Component {
             <div className="row">
                <div className="columns download">
                   <p>
-                     <a href="mailto:adyashamohanty8105@gmail.com" className="button button1" target="_blank"><i className="fa fa-envelope"></i>Get in Touch</a>
-                     <a href="https://drive.google.com/uc?export=pdf&id=1JZ_9_koC-W0jVg39lGh8Jd0hwJzv8kqn" className="button button2" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href="mailto:adyashamohanty8105@gmail.com" className="button button1" ><i className="fa fa-envelope"></i>Get in Touch</a>
+                     <a href="https://drive.google.com/uc?export=pdf&id=1JZ_9_koC-W0jVg39lGh8Jd0hwJzv8kqn" className="button button2"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

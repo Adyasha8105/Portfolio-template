@@ -20,7 +20,7 @@ class Header extends Component {
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#footer">Contact</a></li>
-            <li><a href="https://adyasha-mohanty.vercel.app/" className="button blog-button" target="_blank">Blog</a></li>
+            <li><a href="https://adyasha-mohanty.vercel.app/" className="button blog-button">Blog</a></li>
          </ul>
       </nav>
 
