@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
-
-    if(this.props.data){
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
-
     return (
       <footer>
 
      <div className="row" id="footer">
         <div className="twelve columns">
            <ul className="social-links">
-              {networks}
+               <li><a href="https://www.facebook.com/Adyasha8105"><i className="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/adyasha-mohanty-7a6254191/"><i className="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/adyaa_08/"><i className="fa fa-instagram"></i></a></li>
+               <li><a href="https://twitter.com/Adyasha8105"><i className="fa fa-twitter"></i></a></li>
+               <li><a href="https://github.com/Adyasha8105"><i className="fa fa-github"></i></a></li>
            </ul>
 
            <ul className="copyright">

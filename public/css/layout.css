@@ -304,6 +304,13 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
+.feature-item {
+  display: inline-block;
+  width: 25%;
+  max-width: 50%;
+  float: none !important;
+}
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -341,7 +348,9 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
-
+.portfolio-item{
+  width: 50%;
+}
 /* overlay */
 .portfolio-item .item-wrap .overlay {
   position: absolute;

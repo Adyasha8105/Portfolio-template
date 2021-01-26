@@ -10,10 +10,16 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
-      var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p className="newline">{work.description}</p>
+      var Experience = this.props.data.Experience.map(function(Experience){
+        return <div key={Experience.company}><h3>{Experience.company}</h3>
+            <p className="info">{Experience.title}<span>&bull;</span> <em className="date">{Experience.years}</em></p>
+            <p className="newline">{Experience.description}</p>
+        </div>
+      })
+      var Volunteer = this.props.data.Volunteer.map(function(Volunteer){
+        return <div key={Volunteer.company}><h3>{Volunteer.company}</h3>
+            <p className="info">{Volunteer.title}<span>&bull;</span> <em className="date">{Volunteer.years}</em></p>
+            <p className="newline">{Volunteer.description}</p>
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
@@ -47,12 +53,23 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Experience</span></h1>
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          {Experience}
         </div>
+    </div>
+
+    <div className="row work">
+
+      <div className="three columns header-col">
+       <h1><span>Volunteer</span></h1>
+      </div>
+
+      <div className="nine columns main-col">
+       {Volunteer}
+      </div>
     </div>
 
 
