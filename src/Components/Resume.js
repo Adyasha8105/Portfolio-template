@@ -4,11 +4,11 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+      var skillmessage = "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over";
+      var education = this.props.data.education.map(function(){
+        return <div><h3>College of Engineering and Technology, Bhubaneswar</h3>
+        <p className="info">Sophomore, Bachelors in Information Technology <span>&bull;</span><em className="date">2019 – 2023</em></p>
+        <p>Secured 9.42 CGPA (till now)</p></div>
       })
       var Experience = this.props.data.Experience.map(function(Experience){
         return <div key={Experience.company}><h3>{Experience.company}</h3>
